@@ -1,7 +1,8 @@
-import Timers from 'timers-promises';
+import Timers from "timers-promises";
 export async function handler() {
-await Timers.setTimeout(4000);
-return {statusCode: 200
+  await Timers.setTimeout(4000);
+  return {
+    statusCode: 200,
     body: `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,5 +15,6 @@ return {statusCode: 200
     <h1>This is the response page</h1>
     <a href="/">Click here to go back home.</a>
 </body>
-</html>`}
+</html>`,
+  };
 }
