@@ -1,5 +1,5 @@
 import Timers from 'timers-promises';
-export async handler() {
+export async function handler() {
 await Timers.setTimeout(4000);
 return {statusCode: 200
     body: `<!DOCTYPE html>
