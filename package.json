@@ -1,0 +1,23 @@
+{
+  "name": "test-browser-loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdarrik/test-browser-loading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdarrik/test-browser-loading/issues"
+  },
+  "homepage": "https://github.com/mdarrik/test-browser-loading#readme",
+  "dependencies": {
+    "timers-promises": "^1.0.0"
+  }
+}

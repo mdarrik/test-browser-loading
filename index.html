@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test html loading</title>
+</head>
+
+<body>
+    <h1>Test html loading on a delay</h1>
+    <section>
+        <a href="/.netlify/functions/delayed-response">Click here to navigate to a page that is returned on a 4 second
+            delay</a>
+    </section>
+    <form action="/.netlify/functions/delayed-response">
+        <label for="test-input">Enter something here!</label>
+        <input name="test" id="test-input" type="text">
+        <button type="submit">Submit this form to see what happens on a submit with a 4 second delay</button>
+    </form>
+</body>
+
+</html>
